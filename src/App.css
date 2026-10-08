@@ -1,0 +1,73 @@
+/* =================================
+   GLOBAL APP STYLES
+   ================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+  background-color: #f8fbfc;
+}
+
+/* Remove default button styling */
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Remove default link styling */
+
+a {
+  text-decoration: none;
+}
+
+/* Inputs */
+
+input,
+select,
+button {
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+/* Prevent Bootstrap-like large spacing */
+
+p {
+  margin-top: 0;
+}
+
+/* Common small scrollbar */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5c5c5;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
